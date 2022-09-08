@@ -16,6 +16,7 @@ body {
     width: 100%;
     display: inline-block;
     font-family: "Raleway", sans-serif;
+    font-style: italic;
     font-size: 40pt;
     text-align: center;
     user-select: none;
@@ -45,28 +46,27 @@ body{
     margin-top: 3%;
 }
 #Main{
-    margin-top: 10%;
-    display: flex;
-    justify-content: left;
-    width: 100%;
+    margin-top: 15%;
+    width: 99.5%;
 }
-#Main ul li{
-    list-style: none;
-    margin-bottom: 10%;
-    margin-left: -5%;
+#Main button{
+    margin-bottom: 5%;
+}
+#Main {
+    display: list-item;
+    text-align: center;
 }
 .button-74 {
   background-color: #fbeee0;
   border: 2px solid #422800;
-  width: 98%;
+  width: 90%;
   border-radius: 30px;
   box-shadow: #422800 4px 4px 0 0;
   color: #422800;
   cursor: pointer;
   font-weight: 600;
   font-size: 16px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 0;
   line-height: 60px;
   text-align: center;
   text-decoration: none;
@@ -75,6 +75,7 @@ body{
   touch-action: manipulation;
   word-break: break-all;
   text-overflow:clip;
+  font-style: italic;
 }
 .button-74:hover {
   background-color: #fff;
@@ -88,4 +89,18 @@ body{
     min-width: 120px;
     padding: 0 25px;
   }
+}
+#cena{
+  float: right;
+  margin-right: 3%;
+}
+#produkt{
+  float: left;
+  margin-left: 3%;
+}
+#Main button img{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom: 2px outset black;
+  margin-bottom: -10%;
 }

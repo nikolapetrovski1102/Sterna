@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js' integrity='sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==' crossorigin='anonymous'></script>
-    <link rel="stylesheet" href="SternaMenu.css">
     <title>Document</title>
+    <link rel="stylesheet" href="SternaMenu.css">
 </head>
 <body>
     
@@ -21,34 +20,34 @@
             <defs>
                 <filter id="threshold">
                     <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
-                    0 1 0 0 0
-                    0 0 1 0 0
-                    0 0 0 255 -140" />
+                          0 1 0 0 0
+                          0 0 1 0 0
+                          0 0 0 255 -140" />
                 </filter>
             </defs>
         </svg>
     </li>
-</ul>
+    </ul>
 
-<div id="Main">
-    <a href="Kafe.html"> <button class="button-74" role="button">Кафе</button> </a>
-    <button class="button-74" role="button">Безалкохолни пијалоци</button>
-    <button class="button-74" role="button">Цедени сокови</button>
-    <button class="button-74" role="button">Апетисани</button>
-    <button class="button-74" role="button">Коктели</button>
-    <button class="button-74" role="button">Пива</button>
-    <button class="button-74" role="button">Вина</button>
-    <button class="button-74" role="button">Водка</button>
-    <button class="button-74" role="button">Џин</button>
-    <button class="button-74" role="button">Текила</button>
-    <button class="button-74" role="button">Рум</button>
-    <button class="button-74" role="button">Ракија</button>
-    <button class="button-74" role="button">Ликер</button>
-    <button class="button-74" role="button">Виски</button>
-</div>
+    <div id="Main">
+        <div>
+            <button class="button-74" role="button"> <img src="https://images.unsplash.com/photo-1610889556528-9a770e32642f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXNwcmVzc298ZW58MHx8MHx8&w=1000&q=80" alt="" width="100%"> <span id="produkt">Еспресо</span> <span id="cena">100 ден.</span></button>
+        </div>
+        <button class="button-74" role="button"> <span id="produkt">Макијато</span> <span id="cena">100 ден.</span> </button>
+        <button class="button-74" role="button"><span id="produkt">Големо Макијато</span> <span id="cena">100 ден.</span> </button>
+        <button class="button-74" role="button"><span id="produkt">Ладно макијато </span> <span id="cena">100 ден.</span> </button>
+        <button class="button-74" role="button"><span id="produkt">Лате</span> <span id="cena">100 ден.</span> </button>
+        <button class="button-74" role="button"><span id="produkt">Капучино</span> <span id="cena">100 ден.</span> </button>
+        <button class="button-74" role="button"><span id="produkt">Фредо Еспресо</span> <span id="cena">100 ден.</span> </button>
+        <button class="button-74" role="button"><span id="produkt">Фредо Капучино</span> <span id="cena">100 ден.</span> </button>
+        <button class="button-74" role="button"><span id="produkt">Ирско Кафе</span> <span id="cena">100 ден.</span> </button>
+        <button class="button-74" role="button"><span id="produkt">Ладно Нескафе</span> <span id="cena">100 ден.</span> </button>
+        <button class="button-74" role="button"><span id="produkt">Нескафе Класик</span> <span id="cena">100 ден.</span> </button>
+        <button class="button-74" role="button"><span id="produkt">Салеп</span> <span id="cena">100 ден.</span> </button>
+    </div>
 
-<script>
-    const elts = {
+    <script>
+        const elts = {
     text1: document.getElementById("text1"),
     text2: document.getElementById("text2")
 };
@@ -136,8 +135,7 @@ function animate() {
         $('#container').slideDown('slow');
     }, 1000)
 
-</script>
-
+    </script>
 
 </body>
 </html>
