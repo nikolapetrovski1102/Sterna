@@ -27,7 +27,8 @@ body {
 body{
     padding: 0;
     background: url('304982127_3337989026431134_5261267611287593859_n.jpg') center no-repeat;
-    background-size: 100% 100%;
+    /* background-size: 150% 100%; */
+    background-size: cover;
     background-attachment: fixed;
   }
   #Header{
@@ -53,12 +54,12 @@ body{
 }
 @media only screen and (width: 540px) {
   #Main{
-      margin-top: 30%;
+      margin-top: 35%;
   }
 }
 @media only screen and (width: 414px) {
   #Main{
-      margin-top: 55%;
+      margin-top: 45%;
   }
 }
 @media only screen and (width: 412px) {
