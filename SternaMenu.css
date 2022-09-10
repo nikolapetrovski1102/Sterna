@@ -26,11 +26,10 @@ body {
 }
 #background{
   margin-top: -5%;
-  margin-left: -23%;
-  width: 150%;
-  height: 90%;
+  /* margin-left: -23%; */
+  width: 100%;
+  height: 80%;
   overflow: hidden;
-  /* position: absolute; */
   position: fixed;
   z-index: -10;
 }
