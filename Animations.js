@@ -1,3 +1,15 @@
+$('#Main button').hide();
+$('#container').hide();
+
+window.setTimeout( function () {
+    $('#Main button').fadeIn('slow');
+    $('#container').slideDown('slow');
+}, 1000)
+
+window.setInterval( function () {
+    $("#container").fadeOut();
+}, 2800)
+
 const elts = {
     text1: document.getElementById("text1"),
     text2: document.getElementById("text2")
@@ -77,15 +89,3 @@ function animate() {
 }
 
     animate();
-
-    $('#Main button').hide();
-    $('#container').hide();
-    
-    window.setTimeout( function () {
-        $('#Main button').fadeIn('slow');
-        $('#container').slideDown('slow');
-    }, 1000)
-
-    window.setInterval( function () {
-        $("#container").fadeOut();
-    }, 2800)
