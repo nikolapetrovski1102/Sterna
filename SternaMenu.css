@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
 
-body {
-    margin: 0px;
-}
-
 #container {
     margin-top: 10%;
     width: 3000%;
@@ -19,14 +15,14 @@ body {
     font-style: italic;
     font-size: 40pt;
     text-align: center;
-    /* user-select: none; */
 }
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-  background: url('assets/StopThinkingStartDrinking.jpg') top no-repeat;
+  background: url('assets/Gazirani.jpg') top no-repeat;
   background-size: cover;
+  background-color: red;
 }
 #Header{
     margin-top: 2%;
@@ -66,6 +62,7 @@ body{
 }
 #Main button{
     margin-bottom: 5%;
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
 }
 #Main {
     display: list-item;
@@ -74,46 +71,12 @@ body{
 #Main button img {
   width: 97.5%;
 }
-/* .button-74 {
-  background-color: #fbeee0;
-  border: 2px solid #422800;
-  width: 90%;
-  border-radius: 30px;
-  box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 16px;
-  padding: 0;
-  line-height: 60px;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  word-break: break-all;
-  text-overflow:clip;
-  font-style: italic;
-  border: 2px solid black;
-}
-.button-74:hover {
-  background-color: #fff;
-}
-.button-74:active {
-  box-shadow: #422800 2px 2px 0 0;
-  transform: translate(2px, 2px);
-}
-@media (min-width: 768px) {
-  .button-74 {
-    min-width: 120px;
-    padding: 0 25px;
-  }
-} */
 #cena{
   float: right;
   margin-right: 4%;
   margin-bottom: 4%;
   margin-top: -4%;
+  text-shadow: 0px 0px 3px red;
 }
 #produkt{
   float: left;
@@ -159,16 +122,12 @@ body{
   display: inline-block;
   flex-direction: row;
   flex-shrink: 0;
-  /* font-family: Eina01,sans-serif; */
   font-size: 16px;
   justify-content: center;
   line-height: 24px;
   margin: 0;
   min-height: 64px;
   outline: none;
-  /* overflow: hidden; */
-  /* padding-left: 70px;
-  padding-right: 70px; */
   padding: 0%;
   width: 90%;
   pointer-events: auto;
@@ -181,21 +140,18 @@ body{
   touch-action: manipulation;
   vertical-align: middle;
 }
-
 @media (min-width: 768px) {
   .button-78 {
     padding: 19px 32px;
     width: 100%;
   }
 }
-
 .button-78:before,
 .button-78:after {
   border-radius: 30px;
 }
-
 .button-78:before {
-  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  background-image: linear-gradient(92.83deg, #a08679 0, #67463f 100%);
   content: "";
   display: block;
   height: 100%;
@@ -206,7 +162,6 @@ body{
   width: 100%;
   z-index: -2;
 }
-
 .button-78:after {
   background-color: initial;
   background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
@@ -221,7 +176,6 @@ body{
   transition: all 100ms ease-out;
   z-index: -1;
 }
-
 .button-78:hover:not(:disabled):before {
   background: linear-gradient(92.83deg, rgb(255, 116, 38) 0%, rgb(249, 58, 19) 100%);
 }

@@ -7,41 +7,45 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js' integrity='sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==' crossorigin='anonymous'></script>
     <title>Document</title>
     <link rel="stylesheet" href="SternaMenu.css">
+    <style>
+        body{
+            background: url('assets/Negazirani.jpg') top no-repeat;
+            background-size: cover;
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
     
     <ul id="Header">
-        <li> <img src="SternaLogo.png" alt="Logo" height="90"> </li>
-        <li> <div id="container">
-            <span id="text1"></span>
-            <span id="text2"></span>
-        </div>
-        
-        <svg id="filters">
-            <defs>
-                <filter id="threshold">
-                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
-                          0 1 0 0 0
-                          0 0 1 0 0
-                          0 0 0 255 -140" />
-                </filter>
-            </defs>
-        </svg>
-    </li>
+        <li> <img src="assets/SternaLogo.png" alt="Logo" height="90"> </li>
     </ul>
 
     <div id="Main">
         <div id="negazirani">
-            <button class="button-78" role="button"><span id="produkt"></span>Сок од портокал<span id="cena">100 ден.</span> </button>
-            <button class="button-78" role="button"><span id="produkt">Сок од праска</span> <span id="cena">100 ден.</span> </button>
-            <button class="button-78" role="button"><span id="produkt">Сок од јаболко</span> <span id="cena">100 ден.</span> </button>
-            <button class="button-78" role="button"><span id="produkt">Сок од ананас</span> <span id="cena">100 ден.</span> </button>
-            <button class="button-78" role="button"><span id="produkt">Сок од цреши</span><span id="cena">100 ден.</span> </button>
-            <button class="button-78" role="button"><span id="produkt">Сок од јагода</span> <span id="cena">100 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Аризона</span><span id="cena">150 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Лимонада</span> <span id="cena">150 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Цеден Портокал</span> <span id="cena">150 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Цеден Цитрон</span> <span id="cena">150 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Цеден Микс</span> <span id="cena">160 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">B 52 Енергетски Пијалок</span> <span id="cena">80 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Сок од Вишна</span><span id="cena">100 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Сок од Портокал</span> <span id="cena">100 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Сок од Јаболко</span> <span id="cena">100 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Сок од Праска</span> <span id="cena">100 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Сок од Јагода</span> <span id="cena">100 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Сок од Круша</span> <span id="cena">100 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Сок од Ананас</span> <span id="cena">120 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Леден Чај</span> <span id="cena">100 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Цедевита</span> <span id="cena">60 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Bravo Rauch</span> <span id="cena">120 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Fentimans</span> <span id="cena">200 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">RedBull</span> <span id="cena">200 ден.</span> </button>
+            <button class="button-78" role="button"> <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fassets.marthastewart.com%2Fstyles%2Fwmax-750%2Fd20%2Foj-upgrade-103121806%2Foj-upgrade-103121806_horiz_0.jpg%3Fitok%3DHQdK4qxB&q=60" alt=""> <span id="produkt">Orangina</span> <span id="cena">120 ден.</span> </button>
         </div>
     </div>
 
-    <script src="/Animations.js">
+    <script src="Animations.js">
 
     </script>
 

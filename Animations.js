@@ -1,14 +1,15 @@
 $('#Main button').hide();
 $('#container').hide();
 
-window.setTimeout( function () {
-    $('#Main button').fadeIn('slow');
-    $('#container').slideDown('slow');
-}, 1000)
+$('#Main button').fadeIn('slow');
+$('#container').slideDown('slow');
+
+console.log(document.body.offsetHeight);
+console.log(document.body.offsetWidth);
 
 window.setInterval( function () {
     $("#container").fadeOut();
-}, 2800)
+}, 2000)
 
 const elts = {
     text1: document.getElementById("text1"),
@@ -16,12 +17,12 @@ const elts = {
 };
 
 const texts = [
-    'Мени',
-    'Стерна'
+    'Стерна',
+    'Мени'
 ];
 
 const morphTime = 1;
-const cooldownTime = 0.25;
+const cooldownTime = .8;
 
 let textIndex = texts.length - 1;
 let time = new Date();
