@@ -18,6 +18,22 @@
 <body>
     <ul id="Header">
         <li> <a href="index.html"> <img src="assets/SternaLogo.png" alt="Logo" height="90"> </a> </li>
+        <li> <div id="container">
+            <span id="text1"></span>
+            <span id="text2"></span>
+        </div>
+        
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+    </li>
     </ul>
 
 <div id="Main">
@@ -25,7 +41,7 @@
     <a href="Gazirani.html"> <button class="button-78" role="button">Газирани сокови</button> </a>
     <a href="Negazirani.html"> <button class="button-78" role="button">Негазирани сокови</button> </a>
     <a href="Alkoholni.html"> <button class="button-78" role="button">Алкохолни пијалоци</button> </a>
-    <button class="button-78" role="button">Коктели</button>
+    <a href="Kokteli.html"> <button class="button-78" role="button">Коктели</button> </a>
     <a href="Vino.html"> <button class="button-78" role="button">Вино</button> </a>
     <a href="Pivo.html"> <button class="button-78" role="button">Пиво</button> </a>
     <a href="Voda.html"> <button class="button-78" role="button">Вода</button> </a>
