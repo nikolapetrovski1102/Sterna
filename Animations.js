@@ -1,3 +1,16 @@
+$('#back').hide();
+
+var image = document.getElementById('back');
+
+window.addEventListener('scroll', function(){
+    if (window.scrollY == 0){
+        $('#back').hide();
+    }
+    else{
+        $('#back').fadeIn();
+    }
+})
+
 $('#Main button').hide();
 $('#container').hide();
 
